@@ -1,0 +1,59 @@
+.heroImage {
+    width: 100%;
+}
+
+.list {
+    text-align: start;
+    width: 20%;
+    list-style: none;
+    border: 1px solid black;
+    background-color: white;
+}
+ol {
+    list-style: none;
+}
+.list p {
+    text-align: start;
+}
+
+.heroParameters {
+    font-size: 1.2rem;
+    padding:  0  1rem;
+}
+
+.button {
+    text-align: center;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.button button{
+    color: black;
+    font-weight: 800;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.normal {
+    background-color: white;
+}
+
+.button button:hover{
+    width: 99%;
+    color: white;
+    background-color: rgb(4, 160, 228);
+    font-size: 1.4rem;
+}
+
+.paramName {
+    font-weight: 700;
+}
+
+.onSale{
+    background-color: yellow;
+}
+
+.onSale {
+    pointer-events: none;
+}
+
+

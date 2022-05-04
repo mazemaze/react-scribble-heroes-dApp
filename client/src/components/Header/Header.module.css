@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Scribble Lines";
+    src: url("./ScribbleLines.otf");
+  }
+
+.container {
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background: white;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    width: 70%;
+}
+
+.container button {
+    color: black;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.container button:hover {
+    width: 99%;
+    color: white;
+    background-color: rgb(4, 160, 228);
+    font-size: 1.78rem;
+}
+
+.title {
+    font-family: Scribble Lines;
+    font-size: 1rem;
+}
+    
